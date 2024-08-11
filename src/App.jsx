@@ -1,21 +1,21 @@
-import { useState } from 'react'
-import fraglogo from './assets/img/logo.png'
+// import { useState } from 'react'
+// import fraglogo from './assets/img/logo.png'
 import './App.css'
+import AppRoutes from './AppRoutes';
+import { Route, Routes } from 'react-router-dom';
+import Layout from './component/Layout';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={fraglogo} className="logo" alt="Vite logo" />
-        </a>
-      </div>
-      <h1>Welcome to FragInfinity</h1>
-    
-    </>
-  )
+    <Layout>
+      <Routes>
+        {AppRoutes.map((route, index) => {
+          const { element, ...rest } = route;
+          return <Route key={index} {...rest} element={element} />;
+        })}
+      </Routes>
+    </Layout>
+  );
 }
 
-export default App
+export default App;
