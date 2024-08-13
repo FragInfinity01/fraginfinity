@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import fraglogo from './assets/img/logo.png'
+import './VerticalText.css'
 import './App.css'
 
 function App() {
@@ -13,9 +14,17 @@ function App() {
         </a>
       </div>
       <h1>Welcome to FragInfinity</h1>
-    
+      <VerticalText/>
     </>
   )
+}
+
+function VerticalText() {
+  return (
+    <div className="vertical-text-container">
+      <div className="vertical-text">FRAG INFINITY</div>
+    </div>
+  );
 }
 
 export default App
