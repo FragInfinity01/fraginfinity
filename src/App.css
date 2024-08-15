@@ -58,12 +58,30 @@ a{
   gap: 1rem;
 }
 
+.nav li {
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav li::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background: #FB346D;
+  position: absolute;
+  bottom: -4px;
+  left: 5px;
+  transition: width 0.3s ease-in-out;
+}
+
 .nav li.active,
-.nav li:hover{
+.nav li:hover {
   color: #FB346D;
-  border-bottom: 3px solid #FB346D;
-  border-bottom-left-radius: 8%;
-  border-bottom-right-radius: 8%;
+}
+
+.nav li:hover::after,
+.nav li.active::after {
+  width: 50%;
 }
 
 .logo {
@@ -183,13 +201,15 @@ a{
 /*-------------------------------Footer styles-------------------------------*/
 .footer-img{
   width: 100%;
-  max-height: 200px;
+  max-height: auto;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .footer-img img{
   width: 100%;
-  height: auto;
-  object-fit: contain;
+  height: 200px;
+  object-fit: cover;
 }
 
 /*-------------------------------Scroll to top styles-------------------------------*/
