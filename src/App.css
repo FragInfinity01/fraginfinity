@@ -14,12 +14,14 @@ a{
 }
 
 .nav{
+  position: relative;
   color: #fff;
   display: flex;
   justify-content: start;
   align-items: center;
   gap: 2rem;
   padding: 0 1rem;
+  max-height: 100px;
 }
 
 .nav a{
@@ -28,6 +30,24 @@ a{
   align-items: center;
   padding: .25rem;
   transition: color 300ms;
+}
+
+.nav .nav-btn{
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 1.8rem;
+  z-index: 1;
+}
+
+.nav .nav-close-btn{
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
 }
 
 .nav ul{
@@ -47,25 +67,29 @@ a{
 }
 
 .logo {
-  height: 7em;
-  padding: 1.5em;
+  height: 6em;
+  padding: 1em;
   will-change: filter;
   transition: filter 300ms;
+  z-index: 1;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 
 .hero-section{
-  position: relative;
+  height: 90vh;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
+  padding: 0 0 0 2rem;
   overflow: hidden;
 }
 
 .hero-text{
-  padding: 2.5rem;
+  margin-top: 5rem;
+  padding: 0 2rem 5rem;
+  border-left: 3px dotted #fff;
 }
 
 .hero-text h1{
@@ -94,18 +118,17 @@ a{
 
 .hero-img {
   width: 100%;
-  height: 500px;
+  height: 600px;
   overflow: hidden;
-  position: relative;
 }
 
 .hero-img img {
-  position: relative;
+  position: absolute;
   top: 0;
-  left: 0;
-  width: 150%;
-  height: auto;
-  object-fit: cover;
+  right: 0;
+  width: auto;
+  height: 100vh;
+  /* object-fit: contain; */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -120,6 +143,53 @@ a{
 
 .read-the-docs {
   color: #888;
+}
+
+@media only screen and (max-width: 1024px){
+  .nav {
+    justify-content: space-between;
+  }
+  .nav .nav-btn{
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .nav ul{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #161616;
+    transition: 1s;
+    transform: translateY(-100vh);
+    z-index: 2;
+  }
+
+  .nav .responsive-nav{
+    transform: none;
+  }
+
+  .hero-text{
+    z-index: 1;
+  }
+}
+
+/*-------------------------------Footer styles-------------------------------*/
+.footer-img{
+  width: 100%;
+  max-height: 200px;
+}
+
+.footer-img img{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 /*-------------------------------Scroll to top styles-------------------------------*/

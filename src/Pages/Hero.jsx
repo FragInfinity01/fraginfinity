@@ -1,4 +1,4 @@
-import fragBanner from '.././assets/img/hero.jfif'
+import fragBanner from '.././assets/img/Asset 24.png'
 
 function Hero() {
   return (
