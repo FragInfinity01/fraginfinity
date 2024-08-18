@@ -1,5 +1,4 @@
-// import { useState } from 'react'
-// import fraglogo from './assets/img/logo.png'
+
 import './VerticalText.css'
 import './App.css'
 import AppRoutes from './AppRoutes';
@@ -13,8 +12,10 @@ function App() {
         {AppRoutes.map((route, index) => {
           const { element, ...rest } = route;
           return <Route key={index} {...rest} element={element} />;
+        
         })}
       </Routes>
+      <VerticalText/>
     </Layout>
   );
 }
