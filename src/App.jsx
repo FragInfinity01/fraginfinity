@@ -1,5 +1,3 @@
-
-import './VerticalText.css'
 import './App.css'
 import AppRoutes from './AppRoutes';
 import { Route, Routes } from 'react-router-dom';
@@ -12,19 +10,9 @@ function App() {
         {AppRoutes.map((route, index) => {
           const { element, ...rest } = route;
           return <Route key={index} {...rest} element={element} />;
-        
         })}
       </Routes>
-      <VerticalText/>
     </Layout>
-  );
-}
-
-function VerticalText() {
-  return (
-    <div className="vertical-text-container">
-      <div className="vertical-text">FRAG INFINITY</div>
-    </div>
   );
 }
 
