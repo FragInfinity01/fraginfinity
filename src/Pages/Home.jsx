@@ -1,7 +1,11 @@
 import fragBanner from '.././assets/img/Asset 24.png'
+import LatestNews from '../component/LatestNews'
+import Team from '../component/Team'
+import VerticalText from '../component/VerticalText'
 
-function Hero() {
+function Home() {
   return (
+    <>
     <div className="hero-section">
         <div className="hero-text">
             <h2>The Ultimate</h2>
@@ -12,7 +16,11 @@ function Hero() {
         <img src={fragBanner} alt="hero" />
     </div>
     </div>
+    <LatestNews />
+    <Team/>
+    <VerticalText />
+    </>
   )
 }
 
-export default Hero
+export default Home
