@@ -11,7 +11,7 @@ import YouTube from '.././assets/img/YouTube.png'
 
 function Team() {
   return (
-    <section className="team-section">
+    <section className="team-section" id="teamSection">
         <h1>MEET OUR <span>TEAM</span></h1>
         <div className="team-cards">
             <div className="player-card">
