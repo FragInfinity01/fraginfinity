@@ -38,11 +38,11 @@ function Connect() {
                 <button type="submit">Connect &nbsp;<i className="fas fa-angle-double-right"></i></button>
             </form>
             <div className="social-links">
-                <img src={Twitch} alt="hero" />
-                <img src={Discord} alt="hero" />
-                <img src={TwitterX} alt="hero" />
-                <img src={TikTok} alt="hero" />
-                <img src={YouTube} alt="hero" />
+                <a href="https://www.twitch.tv/fraginfinityza" target="_blank"><img src={Twitch} alt="twitch logo" /></a>
+                <a href="https://www.instagram.com/steve_art16/" target="_blank"><img src={Discord} alt="discord logo" /></a>
+                <a href="https://www.instagram.com/fraginfinityza/" target="_blank"><img src={TwitterX} alt="x logo" /></a>
+                <a href="https://www.instagram.com/steve_art16/" target="_blank"><img src={TikTok} alt="tiktok logo" /></a>
+                <a href="http://www.youtube.com/@stevemolele6902" target="_blank"><img src={YouTube} alt="youtube logo" /></a>
             </div>
         </div>
     </div>

@@ -101,11 +101,11 @@ function Team() {
                     A versatile gamer who thrives in Valorant, Farlight 84, Rocket League, and Brawlhalla. With a knack for competitive gaming, BlackNoise navigates each title with skill and enthusiasm, bringing a strategic edge to the virtual battlefield. Whether honing precise aim in FPS matches or mastering the art of teamwork in fast-paced sports games.
                     </p>
                     <div className="social-links">
-                    <img src={Twitch} alt="hero" />
-                    <img src={Discord} alt="hero" />
-                    <img src={TwitterX} alt="hero" />
-                    <img src={TikTok} alt="hero" />
-                    <img src={YouTube} alt="hero" />
+                        <a href="https://www.twitch.tv/blacknoisettv" target="_blank"><img src={Twitch} alt="twitch logo" /></a>
+                        <a href="https://www.instagram.com/steve_art16/" target="_blank"><img src={Discord} alt="discord logo" /></a>
+                        <a href="https://www.instagram.com/steve_art16/" target="_blank"><img src={TwitterX} alt="x logo" /></a>
+                        <a href="https://www.instagram.com/steve_art16/" target="_blank"><img src={TikTok} alt="tiktok logo" /></a>
+                        <a href="http://www.youtube.com/@stevemolele6902" target="_blank"><img src={YouTube} alt="youtube logo" /></a>
                     </div>
                 </div>
             </div>
