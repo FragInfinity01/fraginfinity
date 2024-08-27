@@ -152,9 +152,9 @@ a{
   position: absolute;
   top: 0;
   right: 0;
-  width: auto;
+  width: 50%;
   height: 100vh;
-  /* object-fit: contain; */
+  object-fit: cover;
 }
 
 /*----------Latest News-------------*/
@@ -562,6 +562,9 @@ a{
     border: none;
     padding: 0;
   }
+  .hero-img img {
+    width: 70%;
+  }
 
   .latest-news .hero-text{
     width: 100%;
@@ -580,6 +583,10 @@ a{
 }
 
 @media only screen and (max-width: 770px){
+
+  .hero-img img {
+    width: auto;
+  }
 
   .hero-text h1,
   .hero-text p{
