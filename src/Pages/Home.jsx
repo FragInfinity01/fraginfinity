@@ -1,4 +1,5 @@
 import fragBanner from '.././assets/img/Asset 24.png'
+import Connect from '../component/Connect'
 import LatestNews from '../component/LatestNews'
 import Streams from '../component/Streams'
 import Team from '../component/Team'
@@ -20,6 +21,7 @@ function Home() {
     <LatestNews />
     <Streams />
     <Team />
+    <Connect />
     <VerticalText />
     </>
   )

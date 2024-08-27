@@ -205,12 +205,11 @@ a{
   color: #ffffff;
   margin-bottom: 1.5rem;
   font-weight: bold;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 
 .read-more:hover {
   background-color: #FB346D;
-  color: white;
 }
 
 .image-container {
@@ -270,7 +269,7 @@ a{
 
 .team-section{
   text-align: center;
-  margin-top: 4rem;
+  margin: 4rem 0 2rem;
   padding: 0 1rem;
 }
 
@@ -321,6 +320,119 @@ a{
   margin: 1.5rem 0;
 }
 
+/*-------------------------------Connect styles-------------------------------*/
+
+.connect-section{
+  position: relative;
+  padding: 5rem 0 3rem;
+}
+
+.connect-info{
+  padding: 0 2.5rem;
+}
+
+.connect{
+  padding: 0 2rem 0;
+  border-left: 3px dotted #fff;
+}
+
+.connect h2{
+  background-color: #1F51FF;
+  width: fit-content;
+  padding: .5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.connect h1{
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.connect span{
+  color: #FB346D;
+}
+
+.connect p{
+  font-family: 'Aldrich', sans-serif;
+  max-width: 50%;
+  margin-bottom: 2rem;
+}
+
+.connect h4{
+  margin-bottom: 1rem;
+}
+
+.connect-info .newsletter-form{
+  padding: 0 2rem 0;
+  margin-bottom: 2rem;
+}
+
+.connect-info .newsletter-form input{
+  padding: 10px 20px;
+  background: #fff;
+  color: #000000;
+  margin-right: 2rem;
+  font-family: 'Aldrich', sans-serif;
+}
+
+.connect-info .newsletter-form button{
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid #FB346D;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.connect-info .newsletter-form button:hover{
+  background-color: #FB346D;
+}
+
+.connect-info .social-links{
+  padding: 0 2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.connect-section::before,
+.connect-section::after{
+  content: "";
+  position: absolute;
+  left: 2.5rem;
+  width: 2%;
+  height: 20px;
+  background-color: #ffffff;
+}
+
+.connect-section::after{
+  bottom: 0;
+}
+
+.connect-section::before{
+  top: 0;
+}
+
+/*-------------------------------Footer styles-------------------------------*/
+
+.footer-img{
+  width: 100%;
+  max-height: auto;
+  padding: 20px 0;
+  text-align: center;
+  font-family: 'Aldrich', sans-serif;
+}
+
+.footer-img img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
 /*-----Vertical Text---------*/
 
 .vertical-text-container {
@@ -347,116 +459,8 @@ a{
   letter-spacing: 1px;
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-} */
-
-@media only screen and (max-width: 1024px){
-  .nav {
-    justify-content: space-between;
-  }
-  .nav .nav-btn{
-    visibility: visible;
-    opacity: 1;
-  }
-
-  .nav ul{
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
-    background-color: #161616;
-    transition: 1s;
-    transform: translateY(-100vh);
-    z-index: 2;
-  }
-
-  .nav .responsive-nav{
-    transform: none;
-  }
-
-  .hero-text{
-    z-index: 1;
-    border: none;
-    padding: 0;
-  }
-
-  .latest-news .hero-text{
-    width: 100%;
-  }
-
-  .image-container {
-    width: 100%;
-  }
-
-  .team-cards .player-card{
-    width: 100%;
-    flex-direction: column;
-  }
-}
-
-@media only screen and (max-width: 770px){
-
-  .hero-text h1,
-  .hero-text p{
-    text-shadow: 4px 4px 5px #161616;
-  }
-
-  .latest-news::after,
-  .latest-news::before{
-    display: none;
-  }
-
-  .live-streams-section{
-    padding: 0 2.5rem;
-  }
-
-  .live-streams-section .stream-cards{
-    justify-content: space-around;
-  }
-
-  .stream-cards .stream-desc{
-    margin-bottom: 1rem;
-  }
-
-  .vertical-text-container{
-    display: none;
-  }
-
-}
-
-/*-------------------------------Footer styles-------------------------------*/
-.footer-img{
-  width: 100%;
-  max-height: auto;
-  padding: 20px 0;
-  text-align: center;
-  font-family: 'Aldrich', sans-serif;
-}
-
-.footer-img img{
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
-
 /*-------------------------------Scroll to top styles-------------------------------*/
+
 .scroll-to-top {
   position: fixed;
   bottom: 30px;
@@ -521,4 +525,104 @@ a{
   100% {
     transform: translateX(-50%);
   }
+}
+
+@media only screen and (max-width: 1024px){
+  .nav {
+    justify-content: space-between;
+  }
+  .nav .nav-btn{
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .nav ul{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #161616;
+    transition: 1s;
+    transform: translateY(-100vh);
+    z-index: 2;
+  }
+
+  .nav .responsive-nav{
+    transform: none;
+  }
+
+  .hero-text{
+    z-index: 1;
+    border: none;
+    padding: 0;
+  }
+
+  .latest-news .hero-text{
+    width: 100%;
+  }
+
+  .image-container {
+    width: 100%;
+  }
+
+  .team-cards .player-card{
+    width: 100%;
+    max-width: 500px;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 770px){
+
+  .hero-text h1,
+  .hero-text p{
+    text-shadow: 4px 4px 5px #161616;
+  }
+
+  .latest-news::after,
+  .latest-news::before{
+    display: none;
+  }
+
+  .live-streams-section{
+    padding: 0 2.5rem;
+  }
+
+  .live-streams-section .stream-cards{
+    justify-content: space-around;
+  }
+
+  .stream-cards .stream-desc{
+    margin-bottom: 1rem;
+  }
+
+  .vertical-text-container{
+    display: none;
+  }
+
+  .connect{
+    border: none;
+    padding: 0;
+  }
+
+  .connect p{
+    max-width: 100%;
+  }
+
+  .connect-info .newsletter-form,
+  .connect-info .social-links{
+    padding: 0;
+  }
+
+  .connect-info .newsletter-form input{
+    margin-right: 1rem;
+  }
+
 }
