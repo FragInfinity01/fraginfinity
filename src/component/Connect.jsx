@@ -4,6 +4,7 @@ import Discord from '.././assets/img/Discord.png'
 import TwitterX from '.././assets/img/TwitterX.png'
 import TikTok from '.././assets/img/TikTok.png'
 import YouTube from '.././assets/img/YouTube.png'
+import Instagram from '.././assets/img/Instagram.png'
 
 function Connect() {
     const [email, setEmail] = useState('');
@@ -38,11 +39,12 @@ function Connect() {
                 <button type="submit">Connect &nbsp;<i className="fas fa-angle-double-right"></i></button>
             </form>
             <div className="social-links">
+                <a href="https://www.instagram.com/fraginfinityza/" target="_blank"><img src={Instagram} alt="instagram logo" /></a>
                 <a href="https://www.twitch.tv/fraginfinityza" target="_blank"><img src={Twitch} alt="twitch logo" /></a>
-                <a href="https://www.instagram.com/steve_art16/" target="_blank"><img src={Discord} alt="discord logo" /></a>
-                <a href="https://www.instagram.com/fraginfinityza/" target="_blank"><img src={TwitterX} alt="x logo" /></a>
-                <a href="https://www.instagram.com/steve_art16/" target="_blank"><img src={TikTok} alt="tiktok logo" /></a>
-                <a href="http://www.youtube.com/@stevemolele6902" target="_blank"><img src={YouTube} alt="youtube logo" /></a>
+                <a href="https://discord.gg/C3kwUSJ4j7" target="_blank"><img src={Discord} alt="discord logo" /></a>
+                <a href="https://twitter.com/FRAGINFINITYZA/" target="_blank"><img src={TwitterX} alt="x logo" /></a>
+                <a href="https://www.tiktok.com/@fraginfinity8" target="_blank"><img src={TikTok} alt="tiktok logo" /></a>
+                <a href="https://www.youtube.com/@FRAGINFINITY" target="_blank"><img src={YouTube} alt="youtube logo" /></a>
             </div>
         </div>
     </div>

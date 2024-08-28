@@ -1,4 +1,4 @@
-import player1 from '.././assets/img/player.png'
+import player1 from '.././assets/img/player1.png'
 import valo from '.././assets/img/valorant.png'
 import farlight from '.././assets/img/farlight.png'
 import rocket from '.././assets/img/rocket.png'
@@ -8,6 +8,7 @@ import Discord from '.././assets/img/Discord.png'
 import TwitterX from '.././assets/img/TwitterX.png'
 import TikTok from '.././assets/img/TikTok.png'
 import YouTube from '.././assets/img/YouTube.png'
+import Instagram from '.././assets/img/Instagram.png'
 
 function Team() {
   return (
@@ -102,9 +103,9 @@ function Team() {
                     </p>
                     <div className="social-links">
                         <a href="https://www.twitch.tv/blacknoisettv" target="_blank"><img src={Twitch} alt="twitch logo" /></a>
-                        <a href="https://www.instagram.com/steve_art16/" target="_blank"><img src={Discord} alt="discord logo" /></a>
-                        <a href="https://www.instagram.com/steve_art16/" target="_blank"><img src={TwitterX} alt="x logo" /></a>
-                        <a href="https://www.instagram.com/steve_art16/" target="_blank"><img src={TikTok} alt="tiktok logo" /></a>
+                        <a href="https://discord.gg/C3kwUSJ4j7" target="_blank"><img src={Discord} alt="discord logo" /></a>
+                        <a href="https://www.instagram.com/steve_art16/" target="_blank"><img src={Instagram} alt="instagram logo" /></a>
+                        {/* <a href="https://www.instagram.com/steve_art16/" target="_blank"><img src={TikTok} alt="tiktok logo" /></a> */}
                         <a href="http://www.youtube.com/@stevemolele6902" target="_blank"><img src={YouTube} alt="youtube logo" /></a>
                     </div>
                 </div>

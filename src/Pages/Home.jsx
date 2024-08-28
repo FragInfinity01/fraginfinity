@@ -1,4 +1,4 @@
-import fragBanner from '.././assets/img/Asset 24.png'
+import fragBanner from '.././assets/img/hero1.png'
 import Connect from '../component/Connect'
 import LatestNews from '../component/LatestNews'
 import Streams from '../component/Streams'
