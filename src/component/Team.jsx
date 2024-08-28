@@ -1,8 +1,13 @@
 import player1 from '.././assets/img/player1.png'
+import player2 from '.././assets/img/player2.png'
+import player3 from '.././assets/img/player3.png'
+import player4 from '.././assets/img/player4.png'
+import player5 from '.././assets/img/player5.png'
 import valo from '.././assets/img/valorant.png'
 import farlight from '.././assets/img/farlight.png'
 import rocket from '.././assets/img/rocket.png'
 import brawl from '.././assets/img/brawlhalla.png'
+import mine from '.././assets/img/mine.png'
 import Twitch from '.././assets/img/Twitch.png'
 import Discord from '.././assets/img/Discord.png'
 import TwitterX from '.././assets/img/TwitterX.png'
@@ -41,7 +46,7 @@ function Team() {
 
             <div className="player-card">
             <div className="image-box">
-                <img src={player1} alt="hero" />
+                <img src={player2} alt="hero" />
                 </div>
                 <div className="player-description">
                     <div className="games">
@@ -65,7 +70,7 @@ function Team() {
 
             <div className="player-card">
             <div className="image-box">
-                <img src={player1} alt="hero" />
+                <img src={player3} alt="hero" />
                 </div>
                 <div className="player-description">
                     <div className="games">
@@ -89,7 +94,7 @@ function Team() {
 
             <div className="player-card">
             <div className="image-box">
-                <img src={player1} alt="hero" />
+                <img src={player4} alt="hero" />
                 </div>
                 <div className="player-description">
                     <div className="games">
@@ -113,14 +118,14 @@ function Team() {
 
             <div className="player-card">
             <div className="image-box">
-                <img src={player1} alt="hero" />
+                <img src={player5} alt="hero" />
                 </div>
                 <div className="player-description">
                     <div className="games">
-                    <img src={valo} alt="hero" />
-                    <img src={farlight} alt="hero" />
+                    <img src={mine} alt="hero" />
+                    {/* <img src={farlight} alt="hero" />
                     <img src={rocket} alt="hero" />
-                    <img src={brawl} alt="hero" />
+                    <img src={brawl} alt="hero" /> */}
                     </div>
                     <p className="desc">
                     Meet MBQ, a dedicated gamer who immerses themselves in the world of Farlight 84. Known for their strategic prowess and keen reflexes, MBQ navigates the futuristic battlegrounds with finesse and determination. Whether crafting intricate strategies or engaging in intense firefights.
@@ -128,6 +133,30 @@ function Team() {
                     <div className="social-links">
                     <img src={Twitch} alt="hero" />
                     <img src={Discord} alt="hero" />
+                    <img src={TwitterX} alt="hero" />
+                    <img src={TikTok} alt="hero" />
+                    <img src={YouTube} alt="hero" />
+                    </div>
+                </div>
+            </div>
+
+            <div className="player-card">
+            <div className="image-box">
+                <img src={player5} alt="hero" />
+                </div>
+                <div className="player-description">
+                    <div className="games">
+                    <img src={valo} alt="hero" />
+                    {/* <img src={farlight} alt="hero" />
+                    <img src={brawl} alt="hero" /> */}
+                    <img src={rocket} alt="hero" />
+                    </div>
+                    <p className="desc">
+                    Meet MBQ, a dedicated gamer who immerses themselves in the world of Farlight 84. Known for their strategic prowess and keen reflexes, MBQ navigates the futuristic battlegrounds with finesse and determination. Whether crafting intricate strategies or engaging in intense firefights.
+                    </p>
+                    <div className="social-links">
+                    <img src={Twitch} alt="hero" />
+                    <img src={Discord} alt="hero" /> 
                     <img src={TwitterX} alt="hero" />
                     <img src={TikTok} alt="hero" />
                     <img src={YouTube} alt="hero" />
