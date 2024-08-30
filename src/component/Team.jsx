@@ -10,7 +10,7 @@ import brawl from ".././assets/img/brawlhalla.png";
 import mine from ".././assets/img/mine.png";
 import Twitch from ".././assets/img/Twitch.png";
 import Discord from ".././assets/img/Discord.png";
-import TwitterX from ".././assets/img/TwitterX.png";
+// import TwitterX from ".././assets/img/TwitterX.png";
 import TikTok from ".././assets/img/TikTok.png";
 import YouTube from ".././assets/img/YouTube.png";
 import Instagram from ".././assets/img/Instagram.png";
@@ -42,11 +42,20 @@ function Team() {
               forward.
             </p>
             <div className="social-links">
-              <img src={Twitch} alt="hero" />
-              <img src={Discord} alt="hero" />
-              <img src={TwitterX} alt="hero" />
-              <img src={TikTok} alt="hero" />
-              <img src={YouTube} alt="hero" />
+              <a href="https://www.twitch.tv/fraginfinityza" target="_blank">
+                <img src={Twitch} alt="twitch logo" />
+              </a>
+              {/* <img src={Discord} alt="hero" />
+              <img src={TwitterX} alt="hero" /> */}
+              <a
+                href="https://www.tiktok.com/@darealkernel32?_t=8pIXshzrbmA&_r=1"
+                target="_blank"
+              >
+                <img src={TikTok} alt="tiktok logo" />
+              </a>
+              <a href="https://www.youtube.com/@FRAGINFINITY" target="_blank">
+                <img src={YouTube} alt="youtube logo" />
+              </a>
             </div>
           </div>
         </div>
@@ -59,7 +68,7 @@ function Team() {
             <div className="games">
               <img src={valo} alt="hero" />
               <img src={farlight} alt="hero" />
-              <img src={rocket} alt="hero" />
+              {/* <img src={rocket} alt="hero" /> */}
               <img src={brawl} alt="hero" />
             </div>
             <p className="desc">
@@ -71,11 +80,18 @@ function Team() {
               dedication.
             </p>
             <div className="social-links">
-              <img src={Twitch} alt="hero" />
-              <img src={Discord} alt="hero" />
-              <img src={TwitterX} alt="hero" />
-              <img src={TikTok} alt="hero" />
-              <img src={YouTube} alt="hero" />
+              <a href="https://www.twitch.tv/fraginfinityza" target="_blank">
+                <img src={Twitch} alt="twitch logo" />
+              </a>
+              {/* <img src={Discord} alt="hero" />
+              <img src={TwitterX} alt="hero" /> */}
+              <a
+                href="https://www.tiktok.com/@coolgyaal?_t=8pIfmdEYuRh&_r=1"
+                target="_blank"
+              >
+                <img src={TikTok} alt="tiktok logo" />
+              </a>
+              {/* <img src={YouTube} alt="hero" /> */}
             </div>
           </div>
         </div>
@@ -100,11 +116,18 @@ function Team() {
               shooters or navigating high-octane car soccer.
             </p>
             <div className="social-links">
-              <img src={Twitch} alt="hero" />
-              <img src={Discord} alt="hero" />
-              <img src={TwitterX} alt="hero" />
-              <img src={TikTok} alt="hero" />
-              <img src={YouTube} alt="hero" />
+              <a href="https://www.twitch.tv/fraginfinityza" target="_blank">
+                <img src={Twitch} alt="twitch logo" />
+              </a>
+              {/* <img src={Discord} alt="hero" />
+              <img src={TwitterX} alt="hero" /> */}
+              <a
+                href="https://www.tiktok.com/@plugflow.0?_t=8pIg4PwjvOw&_r=1"
+                target="_blank"
+              >
+                <img src={TikTok} alt="tiktok logo" />
+              </a>
+              {/* <img src={YouTube} alt="hero" /> */}
             </div>
           </div>
         </div>
@@ -153,8 +176,8 @@ function Team() {
           <div className="player-description">
             <div className="games">
               <img src={mine} alt="hero" />
-              {/* <img src={farlight} alt="hero" />
-                    <img src={rocket} alt="hero" />
+              <img src={farlight} alt="hero" />
+              {/* <img src={rocket} alt="hero" />
                     <img src={brawl} alt="hero" /> */}
             </div>
             <p className="desc">
@@ -165,11 +188,21 @@ function Team() {
               engaging in intense firefights.
             </p>
             <div className="social-links">
-              <img src={Twitch} alt="hero" />
+              {/* <img src={Twitch} alt="hero" />
               <img src={Discord} alt="hero" />
-              <img src={TwitterX} alt="hero" />
-              <img src={TikTok} alt="hero" />
-              <img src={YouTube} alt="hero" />
+              <img src={TwitterX} alt="hero" /> */}
+              <a
+                href="https://www.tiktok.com/@mbqthegamer?_t=8pIfPKMspLp&_r=1"
+                target="_blank"
+              >
+                <img src={TikTok} alt="tiktok logo" />
+              </a>
+              <a
+                href="https://youtube.com/@mbq_the_gamer?si=Jz9P9hoHoUCFybfc"
+                target="_blank"
+              >
+                <img src={YouTube} alt="youtube logo" />
+              </a>
             </div>
           </div>
         </div>

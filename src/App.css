@@ -311,6 +311,7 @@ a {
 .player-description .social-links {
   display: flex;
   align-items: center;
+  /* justify-content: space-around; */
   gap: 1rem;
 }
 
@@ -489,6 +490,8 @@ a {
   bottom: 30px;
   right: 30px;
   z-index: 100;
+  transition: opacity 0.3s;
+  opacity: 0.8;
 }
 
 .scroll-to-top.hide {
@@ -680,7 +683,7 @@ a {
 
   .player-card .games,
   .player-card .social-links {
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .vertical-text-container {
@@ -747,7 +750,7 @@ a {
 
   .player-card .games,
   .player-card .social-links {
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .player-card .desc {
