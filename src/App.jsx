@@ -1,5 +1,3 @@
-// import { useState } from 'react'
-// import fraglogo from './assets/img/logo.png'
 import './App.css'
 import AppRoutes from './AppRoutes';
 import { Route, Routes } from 'react-router-dom';
@@ -17,5 +15,4 @@ function App() {
     </Layout>
   );
 }
-
 export default App;
