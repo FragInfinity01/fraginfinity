@@ -3,6 +3,8 @@ import player2 from ".././assets/img/player2.png";
 import player3 from ".././assets/img/player3.png";
 import player4 from ".././assets/img/player4.png";
 import player5 from ".././assets/img/player5.png";
+import player6 from ".././assets/img/player6.png";
+import player7 from ".././assets/img/player7.png";
 import valo from ".././assets/img/valorant.png";
 import farlight from ".././assets/img/farlight.png";
 import rocket from ".././assets/img/rocket.png";
@@ -209,26 +211,64 @@ function Team() {
 
         <div className="player-card">
           <div className="image-box">
-            <img src={player5} alt="hero" />
+            <img src={player6} alt="hero" />
           </div>
           <div className="player-description">
             <div className="games">
               <img src={valo} alt="hero" />
-              {/* <img src={farlight} alt="hero" />
-                    <img src={brawl} alt="hero" /> */}
+              {/* <img src={farlight} alt="hero" /> */}
+              <img src={brawl} alt="hero" />
               <img src={rocket} alt="hero" />
             </div>
             <p className="desc">
-              Meet MBQ, a dedicated gamer who immerses themselves in the world
-              of Farlight 84. Known for their strategic prowess and keen
-              reflexes, MBQ navigates the futuristic battlegrounds with finesse
-              and determination. Whether crafting intricate strategies or
-              engaging in intense firefights.
+              Meet ATH, our Valorant captain at FragInfinity. With a calm
+              demeanor that helps the team relax, ATH is known for strategic
+              brilliance and sharp reflexes. Whether crafting strategies or
+              leading intense firefights, ATH guides us with finesse and
+              determination.
             </p>
             <div className="social-links">
               {/* <img src={Twitch} alt="hero" />
                     <img src={Discord} alt="hero" /> 
                     <img src={TwitterX} alt="hero" /> */}
+              <a
+                href="https://www.instagram.com/alexthehumane/"
+                target="_blank"
+              >
+                <img src={Instagram} alt="instagram logo" />
+              </a>
+              <a
+                href="https://youtube.com/@alexthehumane?si=IdW8fZI0CORkh-NB"
+                target="_blank"
+              >
+                <img src={YouTube} alt="youtube logo" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="player-card">
+          <div className="image-box">
+            <img src={player7} alt="hero" />
+          </div>
+          <div className="player-description">
+            <div className="games">
+              <img src={valo} alt="hero" />
+              <img src={farlight} alt="hero" />
+              {/* <img src={brawl} alt="hero" />
+              <img src={rocket} alt="hero" /> */}
+            </div>
+            <p className="desc">
+              Meet PirateRobe, a dedicated player in our Valorant squad,
+              FragInfinity. PirateRobe keeps bringing enthusiasm and positive
+              energy to every match. With keen reflexes and strategic insight,
+              he navigates the battlefield with great skills, contributing to
+              our success in intense firefights and tactical planning.
+            </p>
+            <div className="social-links">
+              {/* <img src={Twitch} alt="hero" />
+            <img src={Discord} alt="hero" /> 
+            <img src={TwitterX} alt="hero" /> */}
               <a
                 href="https://www.instagram.com/alexthehumane/"
                 target="_blank"

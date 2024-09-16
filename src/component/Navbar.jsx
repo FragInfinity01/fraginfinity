@@ -1,54 +1,75 @@
-import { useRef } from 'react'
-import { Link } from 'react-router-dom'
-import fraglogo from '.././assets/img/logo.png'
+import { useRef, useState } from "react";
+import { Link } from "react-router-dom";
+import fraglogo from ".././assets/img/logo.png";
 
 function scrollToSection(sectionId) {
   const element = document.getElementById(sectionId);
 
   if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+    element.scrollIntoView({ behavior: "smooth" });
   }
 }
 
 function Navbar() {
   const navRef = useRef();
+  const [activeSection, setActiveSection] = useState("home");
 
-  const showNavbar = () =>{
-    navRef.current.classList.toggle("responsive-nav")
-  }
+  const showNavbar = () => {
+    navRef.current.classList.toggle("responsive-nav");
+  };
 
-  const scrollTo = (sectionId) => {
-      scrollToSection(sectionId);
+  const handleMenuClick = (sectionId) => {
+    setActiveSection(sectionId);
+    scrollToSection(sectionId);
+    showNavbar();
   };
 
   return (
-    <nav className='nav'>
-        <Link to='/' className='navbar-logo'><img src={fraglogo} className="logo" alt="Vite logo" /></Link>
-        <ul ref={navRef}>
-            <li className='active'>
-              <Link to='/' onClick={showNavbar}>Home</Link>
-            </li>
-            <li>
-              <Link to='/' onClick={() =>{showNavbar(); scrollTo('streamSection')}}>Streams</Link>
-            </li>
-            <li>
-              <Link to='/' onClick={() =>{showNavbar(); scrollTo('teamSection')}}>Team</Link>
-            </li>
-            <li>
-              <Link to='/' onClick={() =>{showNavbar(); scrollTo('connectSection')}}>Let&#39;s Connect</Link>
-            </li>
-            {/* <li>
-              <Link to='/contact'>Contact</Link>
-            </li> */}
-            <button className='nav-btn nav-close-btn' onClick={showNavbar}>
-              <i className="fa fa-times"></i>
-            </button>
-        </ul>
-        <button className='nav-btn' onClick={showNavbar}>
-          <i className="fas fa-bars"></i>
+    <nav className="nav">
+      <Link to="/" className="navbar-logo">
+        <img src={fraglogo} className="logo" alt="FragInfinity logo" />
+      </Link>
+      <ul ref={navRef}>
+        <li className={activeSection === "home" ? "active" : ""}>
+          <Link to="/" onClick={() => handleMenuClick("home")}>
+            Home
+          </Link>
+        </li>
+        <li className={activeSection === "streamSection" ? "active" : ""}>
+          <Link to="/" onClick={() => handleMenuClick("streamSection")}>
+            Streams
+          </Link>
+        </li>
+        <li className={activeSection === "teamSection" ? "active" : ""}>
+          <Link to="/" onClick={() => handleMenuClick("teamSection")}>
+            Team
+          </Link>
+        </li>
+        <li className={activeSection === "connectSection" ? "active" : ""}>
+          <Link to="/" onClick={() => handleMenuClick("connectSection")}>
+            Let&#39;s Connect
+          </Link>
+        </li>
+        <li className={activeSection === "contact" ? "active" : ""}>
+          <Link
+            to="/contact"
+            onClick={() => {
+              setActiveSection("contact");
+              showNavbar();
+            }}
+          >
+            Let&#39;s Collab
+          </Link>
+        </li>
+        <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+          <i className="fa fa-times"></i>
         </button>
-        </nav>
-  )
+      </ul>
+      <button className="nav-btn" onClick={showNavbar}>
+        <i className="fas fa-bars"></i>
+      </button>
+    </nav>
+  );
 }
 
-export default Navbar
+export default Navbar;
