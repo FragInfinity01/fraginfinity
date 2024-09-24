@@ -6,10 +6,11 @@ import Team from "../component/Team";
 import VerticalText from "../component/VerticalText";
 
 const heroText = {
-  title: "The Ultimate",
+  title: "THE ULTIMATE",
   highlight: "ESPORTS",
   highlightSpan: "ARENA",
-  description: "Whether you're a die-hard fan or a casual viewer, our community is here to elevate your esports experience. Get ready to game on!"
+  description:
+    "Whether you're a die-hard fan or a casual viewer, our community is here to elevate your esports experience. Get ready to game on!",
 };
 
 function HeroSection({ text, image }) {
