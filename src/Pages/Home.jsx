@@ -34,6 +34,7 @@ function Home() {
   return (
     <>
       <HeroSection text={heroText} image={fragBanner} />
+      <div style={{ marginBottom: '5rem' }}></div>
       <LatestNews />
       <Streams />
       <Team />
