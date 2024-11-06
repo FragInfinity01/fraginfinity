@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
 html {
   width: 100%;
   height: 100%;
@@ -454,7 +456,7 @@ a {
 
 .footer-img img {
   width: 100%;
-  height: 200px;
+  height: 250%;
   object-fit: cover;
 }
 
@@ -1043,8 +1045,12 @@ a {
     width: 60%;
   }
 
-  /* .spacing {
-    margin-bottom: 50%;
- } */
-
+  .hero-text span.outlined-text {
+    color: transparent;
+    -webkit-text-stroke: 2px #fb346d;
+    font-weight: bold;
+  }
+  
+  
+  
 }
