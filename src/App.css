@@ -675,6 +675,8 @@ a {
   background-color: #fb346d;
 }
 
+/*-------------------------------Coming soon styles-------------------------------*/
+
 .coming-soon{
   width: 100vw;
   height: 100vh;
@@ -692,7 +694,6 @@ a {
 .coming-soon h1{
   font-size: 8rem;
   padding: 1rem 0;
-  /* margin-bottom: 1rem; */
   position: relative;
 }
 
@@ -718,6 +719,7 @@ a {
 
 .coming-soon .logo{
   width: 40%;
+  min-width: 300px;
   height: auto;
 }
 
@@ -762,15 +764,20 @@ a {
   padding: 5px 15px;
 }
 
+/*-------------------------------Not found (404) styles-------------------------------*/
+
 .not-found{
   width: 100%;
   height: 86vh;
-  /* padding-top: 2rem; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
+  background-image: url(./assets/img/notFoundBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .not-found h2 {
@@ -991,6 +998,22 @@ a {
   .footer-img img {
     height: 100px;
   }
+
+  .coming-soon h3{
+    font-size: 2.5rem;
+  }
+  
+  .coming-soon h1{
+    font-size: 6rem;
+  }
+
+  .not-found h2 {
+    font-size: 2rem;
+  }
+  
+  .not-found h1{
+    font-size: 3.5rem;
+  }
 }
 
 @media only screen and (max-width: 770px) {
@@ -1093,6 +1116,47 @@ a {
   .image-banner h3 {
     font-size: 30px;
   }
+
+  .coming-soon{
+    background-image: url(./assets/img/Coming-Soon-Tablet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .coming-soon h3{
+    font-size: 2.5rem;
+  }
+  
+  .coming-soon h1{
+    font-size: 5rem;
+  }
+
+  .coming-soon .social-links {
+    bottom: 3rem;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .coming-soon .cta{
+    text-align: center;
+    top: 4rem;
+    left: 0;
+    width: 100%;
+  }
+  
+  .coming-soon .cta span{
+    font-size: 12px;
+  }
+
+  .not-found h2 {
+    font-size: 1.5rem;
+  }
+  
+  .not-found h1{
+    font-size: 2.5rem;
+  }
 }
 
 @media only screen and (max-width: 430px) {
@@ -1194,9 +1258,46 @@ a {
     width: 60%;
   }
 
-  /* .spacing {
-    margin-bottom: 50%;
- } */
+  .coming-soon h3{
+    font-size: 1.5rem;
+  }
+  
+  .coming-soon h1{
+    font-size: 2.5rem;
+  }
+
+  .coming-soon .social-links {
+    bottom: 3rem;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .coming-soon{
+    background-image: url(./assets/img/Coming-Soon-Mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .coming-soon .cta{
+    text-align: center;
+    top: 4rem;
+    left: 0;
+    width: 100%;
+  }
+  
+  .coming-soon .cta span{
+    font-size: 12px;
+  }
+
+  .not-found h2 {
+    font-size: 1rem;
+  }
+  
+  .not-found h1{
+    font-size: 2rem;
+  }
 
 }
 
