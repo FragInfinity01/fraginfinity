@@ -1288,10 +1288,30 @@ a {
     left: 0;
     width: 100%;
   }
+
+  .coming-soon {
+    position: relative;
+    width: 100%;
+    min-height: 100vh; /* Changed from 1000vh to 100vh for a full viewport height */
+    overflow: hidden;
+    background: black;
+  }
+  
+  
+  .coming-soon .content {
+    position: relative;
+    z-index: 1; /* Keeps content on top of the video */
+    text-align: center;
+    color: white;
+  }
+  
+  
   
   .coming-soon .cta span{
     font-size: 12px;
   }
+
+
 
   .not-found h2 {
     font-size: 1rem;

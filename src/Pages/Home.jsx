@@ -37,7 +37,7 @@ function Home() {
       <div style={{ marginBottom: '5rem' }}></div>
       <LatestNews />
       <Streams />
-      <Team />
+      {/* <Team /> */}
       <Connect />
       <VerticalText />
     </>

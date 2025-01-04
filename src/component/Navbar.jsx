@@ -32,22 +32,22 @@ function Navbar() {
       <ul ref={navRef}>
         <li className={activeSection === "home" ? "active" : ""}>
           <Link to="/" onClick={() => handleMenuClick("home")}>
-            Home
+            HOME
           </Link>
         </li>
         <li className={activeSection === "streamSection" ? "active" : ""}>
           <Link to="/" onClick={() => handleMenuClick("streamSection")}>
-            Streams
+            STREAMS
           </Link>
         </li>
-        <li className={activeSection === "teamSection" ? "active" : ""}>
+        {/* <li className={activeSection === "teamSection" ? "active" : ""}>
           <Link to="/" onClick={() => handleMenuClick("teamSection")}>
-            Team
+            TEAM
           </Link>
-        </li>
+        </li> */}
         <li className={activeSection === "connectSection" ? "active" : ""}>
           <Link to="/" onClick={() => handleMenuClick("connectSection")}>
-            Let&#39;s Connect
+            LET'S CONNECT
           </Link>
         </li>
         <li className={activeSection === "contact" ? "active" : ""}>
@@ -58,7 +58,7 @@ function Navbar() {
               showNavbar();
             }}
           >
-            Let&#39;s Collab
+            LET'S Collab
           </Link>
         </li>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>

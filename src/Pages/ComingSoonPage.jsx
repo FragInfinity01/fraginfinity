@@ -7,16 +7,18 @@ import TikTok from '.././assets/img/TikTok.png'
 import YouTube from '.././assets/img/YouTube.png'
 import Instagram from '.././assets/img/Instagram.png'
 
+
 export default function ComingSoonPage() {
   return (
     <div className='coming-soon'>
         <div className="cta">
             <span>CHECK OUT OUR LATEST YOUTUBE VIDEO</span>
-            <a href='' className="read-more">Watch Video &nbsp;<i className="fas fa-angle-double-right"></i></a>
+            <a href='https://www.youtube.com/watch?v=ADs3RoPUdug' className="read-more">Watch Video &nbsp;<i className="fas fa-angle-double-right"></i></a>
         </div>
-        <h3>WEBSITE</h3>
+        <h3 className='mb-4'>WEBSITE</h3>
+        <br></br>
       <h1>COMING SOON</h1>
-      {/* <p>Our website is under development and will be live soon. Stay tuned!</p> */}
+      <p>Our website is under development and will be live soon. Stay tuned!</p>
       <img src={bannerLogo} className="logo" alt="FragInfinity banner logo" />
       <div className="social-links">
                 <a href="https://www.instagram.com/fraginfinityza/" target="_blank"><img src={Instagram} alt="instagram logo" /></a>
@@ -26,6 +28,9 @@ export default function ComingSoonPage() {
                 <a href="https://www.tiktok.com/@fraginfinity8" target="_blank"><img src={TikTok} alt="tiktok logo" /></a>
                 <a href="https://www.youtube.com/@FRAGINFINITY" target="_blank"><img src={YouTube} alt="youtube logo" /></a>
             </div>
+            <div>       
+            </div>
     </div>
+    
   );
 }

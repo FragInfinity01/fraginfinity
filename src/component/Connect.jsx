@@ -10,9 +10,9 @@ function Connect() {
     const [email, setEmail] = useState('');
 
   const handleSubmit = (e) => {
+    console.dir(e);
     e.preventDefault();
     if (email) {
-      console.log(`Email submitted: ${email}`);
       setEmail('');
     }
   };
@@ -28,7 +28,7 @@ function Connect() {
                 </p>
                 <h4>Subscribe to see the latest from FRAGINFINITY</h4>
             </div>
-            <form onSubmit={handleSubmit} className="newsletter-form">
+            <form action= "https://formspree.io/f/xkgwykgn" onSubmit={handleSubmit} className="newsletter-form" method='POST'>
                 <input
                     type="email"
                     placeholder="Enter your email here..."
