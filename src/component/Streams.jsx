@@ -10,7 +10,9 @@ function Streams() {
         <Jumbotron/>
     <div className="live-streams-section">
         <div className="streams">
-            <h2>UPCOMING LIVE STREAMS</h2>
+        <a href="https://www.twitch.tv/fraginfinityza/schedule" target="_blank" rel="noopener noreferrer">
+        <h2>UPCOMING LIVE STREAMS <i className="fas fa-angle-double-right"></i></h2>
+        </a>
             <p>Join us for live esports action every night at 20:00 on Twitch!</p>
             <div className="stream-cards">
                 <div className="stream-desc">

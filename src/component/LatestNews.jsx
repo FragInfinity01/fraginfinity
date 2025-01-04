@@ -19,7 +19,7 @@ function LatestNews() {
           </p>
         </div>
         <a href="#" className="read-more">
-          Read more &nbsp;<i className="fas fa-angle-double-right"></i>
+          READ MORE &nbsp;<i className="fas fa-angle-double-right"></i>
         </a>
       </div>
       <div className="image-container">

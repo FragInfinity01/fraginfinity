@@ -36,7 +36,7 @@ function Connect() {
                     onChange={(e) => setEmail(e.target.value)}
                     required
                 />
-                <button type="submit">Connect &nbsp;<i className="fas fa-angle-double-right"></i></button>
+                <button type="submit">CONNECT &nbsp;<i className="fas fa-angle-double-right"></i></button>
             </form>
             <div className="social-links">
                 <a href="https://www.instagram.com/fraginfinityza/" target="_blank"><img src={Instagram} alt="instagram logo" /></a>
