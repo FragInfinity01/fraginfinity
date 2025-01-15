@@ -1,0 +1,111 @@
+{
+  "index.html": {
+    "file": "assets/index-BjpRmARh.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "css": [
+      "assets/index-CiPaM7MY.css"
+    ],
+    "assets": [
+      "assets/bannerLogo-DIDKfQfs.png",
+      "assets/hero1-m_vRZpU6.png",
+      "assets/news-BHxaTFIm.png",
+      "assets/fl-B6QwaQa3.png",
+      "assets/val-KtA_8fSr.png",
+      "assets/brawl-Xwr8q2iW.png",
+      "assets/rl-CkEvKaP5.png",
+      "assets/logo-D6ge9RXW.png",
+      "assets/Footer-CI4cQctf.png",
+      "assets/contact-banner1-BgjaeYib.png",
+      "assets/notFoundBg-D7Cm-77I.png",
+      "assets/Coming-Soon-Tablet-DsyyZdiQ.png",
+      "assets/contact-banner2-CFhEjff1.png",
+      "assets/Coming-Soon-Mobile-B4aqfL-c.png"
+    ]
+  },
+  "src/assets/img/Coming-Soon-Mobile.png": {
+    "file": "assets/Coming-Soon-Mobile-B4aqfL-c.png",
+    "src": "src/assets/img/Coming-Soon-Mobile.png"
+  },
+  "src/assets/img/Coming-Soon-Tablet.png": {
+    "file": "assets/Coming-Soon-Tablet-DsyyZdiQ.png",
+    "src": "src/assets/img/Coming-Soon-Tablet.png"
+  },
+  "src/assets/img/Footer.png": {
+    "file": "assets/Footer-CI4cQctf.png",
+    "src": "src/assets/img/Footer.png"
+  },
+  "src/assets/img/bannerLogo.png": {
+    "file": "assets/bannerLogo-DIDKfQfs.png",
+    "src": "src/assets/img/bannerLogo.png"
+  },
+  "src/assets/img/brawl.png": {
+    "file": "assets/brawl-Xwr8q2iW.png",
+    "src": "src/assets/img/brawl.png"
+  },
+  "src/assets/img/contact-banner1.png": {
+    "file": "assets/contact-banner1-BgjaeYib.png",
+    "src": "src/assets/img/contact-banner1.png"
+  },
+  "src/assets/img/contact-banner2.png": {
+    "file": "assets/contact-banner2-CFhEjff1.png",
+    "src": "src/assets/img/contact-banner2.png"
+  },
+  "src/assets/img/fl.png": {
+    "file": "assets/fl-B6QwaQa3.png",
+    "src": "src/assets/img/fl.png"
+  },
+  "src/assets/img/hero1.png": {
+    "file": "assets/hero1-m_vRZpU6.png",
+    "src": "src/assets/img/hero1.png"
+  },
+  "src/assets/img/logo.png": {
+    "file": "assets/logo-D6ge9RXW.png",
+    "src": "src/assets/img/logo.png"
+  },
+  "src/assets/img/news.png": {
+    "file": "assets/news-BHxaTFIm.png",
+    "src": "src/assets/img/news.png"
+  },
+  "src/assets/img/notFoundBg.png": {
+    "file": "assets/notFoundBg-D7Cm-77I.png",
+    "src": "src/assets/img/notFoundBg.png"
+  },
+  "src/assets/img/player1.png": {
+    "file": "assets/player1-DWPHKDm6.png",
+    "src": "src/assets/img/player1.png"
+  },
+  "src/assets/img/player2.png": {
+    "file": "assets/player2-BgqQdbLB.png",
+    "src": "src/assets/img/player2.png"
+  },
+  "src/assets/img/player3.png": {
+    "file": "assets/player3-CCVyu6a_.png",
+    "src": "src/assets/img/player3.png"
+  },
+  "src/assets/img/player4.png": {
+    "file": "assets/player4-PY0NQAc6.png",
+    "src": "src/assets/img/player4.png"
+  },
+  "src/assets/img/player5.png": {
+    "file": "assets/player5-Be2ye27w.png",
+    "src": "src/assets/img/player5.png"
+  },
+  "src/assets/img/player6.png": {
+    "file": "assets/player6-D-cb8DZV.png",
+    "src": "src/assets/img/player6.png"
+  },
+  "src/assets/img/player7.png": {
+    "file": "assets/player7-Oagfew4n.png",
+    "src": "src/assets/img/player7.png"
+  },
+  "src/assets/img/rl.png": {
+    "file": "assets/rl-CkEvKaP5.png",
+    "src": "src/assets/img/rl.png"
+  },
+  "src/assets/img/val.png": {
+    "file": "assets/val-KtA_8fSr.png",
+    "src": "src/assets/img/val.png"
+  }
+}
